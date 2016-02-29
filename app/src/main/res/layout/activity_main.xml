@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cjhott.diplomacycard.MainActivity">
+
+    <ImageView
+        android:src="@drawable/england_wins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center" />
+    <TextView
+        android:id="@+id/textTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="48sp"
+        android:textColor="#000000"
+        android:text="Happy 1901!" />
+
+    <TextView
+        android:id="@+id/textBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="48sp"
+        android:textColor="#000000"
+        android:text="orange maps"/>
+    <TextView
+        android:id="@+id/textMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/textBottom"
+        android:textSize="48sp"
+        android:textColor="#000000"
+        android:text="I hope you like"/>
+</RelativeLayout>
